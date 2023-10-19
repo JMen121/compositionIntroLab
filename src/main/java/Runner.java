@@ -12,7 +12,8 @@ public class Runner {
         System.out.println(bicycle.getPrice());
         System.out.println(bicycle.getTitle());
 
-        Car car = new Car(200, 120, new Product(10000, 3, "2015 Dacia Duster"), new Engine(100, 150));
+        Car car = new Car(200, 120, new Product(10000, 3, "2015 Dacia Duster"),
+                new Engine(100, 150));
 
         car.startEngine();
 
